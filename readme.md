@@ -59,8 +59,3 @@ Runs AUTOMATIC1111's Stable Diffusion WebUI on Paperspace Gradient.
   `git pull` in place.
 - Generated images always save to the Outputs path (no toggle) - redirected
   via `sed` on `config.json`'s `outdir_*` keys.
-
-## Open follow-ups (not done)
-- Full-res CivitAI previews (strip `width=450/` transform from image URL).
-- Gated/login-required CivitAI models unsupported — would need an
-  authenticated session/cookie jar.
